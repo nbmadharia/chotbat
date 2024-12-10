@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chotbat: Log Analyzer</title>
+</head>
+<body>
+    <h1>Welcome to Chotbat</h1>
+    <form id="log-analyzer" method="POST" action="/analyze" enctype="multipart/form-data">
+        <label for="file">Upload Log File:</label>
+        <input type="file" id="file" name="file" required><br><br>
+        <label for="query">Enter Query:</label>
+        <textarea id="query" name="query" rows="4" cols="50" placeholder="e.g., How many debug entries are in the logs?"></textarea><br><br>
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html>
