@@ -119,5 +119,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## **Contact**
 
-- **Author:** [Your Name](https://github.com/your-username)
-- **Email:** your-email@example.com
+- **Author:** [Naman Madharia](https://github.com/nbmadharia)
+- **Email:** nbmadharia@gmail.com
